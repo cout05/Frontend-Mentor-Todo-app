@@ -6,14 +6,8 @@ This is a solution to the [Todo app challenge on Frontend Mentor](https://www.fr
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -33,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://github.com/cout05/Frontend-Mentor-Todo-app)
+- Live Site URL: [Live site URL](https://cout05.github.io/Frontend-Mentor-Todo-app/)
 
 ## My process
 
