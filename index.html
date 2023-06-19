@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Todo app</title>
+  </head>
+  <body>
+    <header>
+      <div id="title">
+        <h1>Todo</h1>
+        <img
+          src="images/icon-sun.svg"
+          alt="icon"
+          class="icon-image"
+          id="light-button" />
+        <img src="images/icon-moon.svg" alt="icon" id="dark-button" />
+      </div>
+      <div id="image-con">
+        <img
+          src="images/bg-mobile-light.jpg"
+          alt="background"
+          class="icon-image"
+          id="background-image" />
+      </div>
+    </header>
+
+    <main>
+      <!-- Add dynamic number -->
+      <div id="inputs-con">
+        <div></div>
+        <input
+          type="text"
+          placeholder="Create a new todo..."
+          id="add-todo"
+          required />
+      </div>
+
+      <div id="todo-con">
+        <div id="list-con"></div>
+        <div id="itemsleft">
+          <p><span id="numbersLeft">0</span> items left</p>
+          <button type="reset" id="reset">Clear Completed</button>
+        </div>
+      </div>
+
+      <div id="nav-con">
+        <button id="all">All</button>
+        <button id="active">Active</button>
+        <button id="completed">Completed</button>
+      </div>
+    </main>
+    <footer>
+      <p>Drag and drop to reorder list</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
